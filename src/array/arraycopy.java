@@ -8,7 +8,8 @@ class arraycopy {
         int [] destination = new int[6];
 
         // iterate and copy elements from source to destination
-        for (int i = 0; i < source.length; ++i) {
+        for (int i = 0; i < source.length; ++i) { 
+            //using looping construct to copy the elements
             destination[i] = source[i];
         }
       
